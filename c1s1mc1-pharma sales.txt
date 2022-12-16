@@ -1,0 +1,113 @@
+ALGORITHM:
+
+
+Step1: start declare highest bonus=0; count sales people=0; sum of bonus=0;
+
+Step2: for all employees repeat following statement
+
+Step3: if dept is sales then go to step4
+
+Step4: calculate bonus
+
+Step5: add to sum of bonus
+
+Step6: if calculated bonus is greater than highest bonus then goto step7 otherwise goto step8
+
+Step7: assign calculated bonus to highest bonus
+
+Step8: increase count of sales people by 1
+
+Step9: stop for loop
+
+Step10: display highest bonus
+
+Step11: display average bonus by dividing sum of bonus by count of sales people
+
+Step12: display sum of bonus
+
+Step13: stop
+
+
+
+
+PSEUDOCODE:
+
+
+
+BEGIN
+
+
+SET highest_bonus=0
+
+SET count_sales_people=0
+
+SET sum_of_bonus=0
+
+
+FOR(i=1)
+	BEGIN
+
+	IF (dept='sales')
+	
+	SET bonus=salary*10/100
+	
+	sum_of_bonus=sum_of_bonus+bonus
+	
+	count_sales_people++
+
+	IF(bonus>highest_bonus)
+	
+	highest_bonus=bonus
+
+	ENDIF
+
+	ENDIF
+
+SET averagebonus=sum_of_bonus/count_of_sales_people
+
+Print highest_bonus
+
+print sum_of_bonus
+
+print average_bonus
+
+
+	
+	
+
+	
+
+	
+	
+
+	
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
